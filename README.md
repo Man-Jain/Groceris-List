@@ -9,7 +9,7 @@ This is made using NativeScript Framework and Javascript.
 - Add a new item to the Grocery List
 - Delete item by sliding through right side
 
-Screenshots :- 
+### Screenshots :- 
 
 ![alt text](https://github.com/Man-Jain/Grocery-List/blob/master/screenshots/Screenshot_20190406-181926_Groceries.png)
 ![alt text](https://github.com/Man-Jain/Grocery-List/blob/master/screenshots/Screenshot_20190406-181936_Groceries.png)
