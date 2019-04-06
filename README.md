@@ -12,6 +12,9 @@ This is made using NativeScript Framework and Javascript.
 Screenshot :- 
 
 ![alt text](https://github.com/Man-Jain/Grocery-List/blob/master/screenshots/Screenshot_20190406-181926_Groceries.png)
+![alt text](https://github.com/Man-Jain/Grocery-List/blob/master/screenshots/Screenshot_20190406-181926_Groceries.png)
+![alt text](https://github.com/Man-Jain/Grocery-List/blob/master/screenshots/Screenshot_20190406-181926_Groceries.png)
+![alt text](https://github.com/Man-Jain/Grocery-List/blob/master/screenshots/Screenshot_20190406-181926_Groceries.png)
 
 ### Tutorial Followed :- 
 https://play.nativescript.org/?template=groceries-js&tutorial=groceries-js&_ga=2.83783765.237418554.1554397374-1654552950.1554397374
