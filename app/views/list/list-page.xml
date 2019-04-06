@@ -1,0 +1,29 @@
+<Page loaded="loaded" xmlns:lv="nativescript-ui-listview">
+    <ActionBar title="Groceries"></ActionBar>
+    <GridLayout rows="auto, *">
+        <GridLayout row="0" columns="*, auto" class="add-bar">
+            <TextField height="auto" text="{{ grocery }}" id="grocery" hint="Enter a grocery item"
+                col="0" />
+            <Image src="~/images/add.png" tap="add" col="1" />
+        </GridLayout>
+        <lv:RadListView items="{{ groceryList }}" row="1"
+            itemSwipeProgressStarted="onSwipeCellStarted" swipeActions="true">
+            <lv:RadListView.itemTemplate>
+
+                <GridLayout class="grocery-list-item">
+                    <Label class="p-15" text="{{ name }}" />
+                </GridLayout>
+            </lv:RadListView.itemTemplate>
+            <lv:RadListView.itemSwipeTemplate>
+                <GridLayout columns="*,auto" backgroundColor="red">
+                    <StackLayout id="delete-view" col="1" tap="delete" class="delete-view">
+                        <Image src="~/images/delete.png" />
+                    </StackLayout>
+                </GridLayout>
+            </lv:RadListView.itemSwipeTemplate>
+        </lv:RadListView>
+        <ActivityIndicator busy="{{ isLoading }}" row="1" horizontalAlignment="center"
+            verticalAlignment="center" />
+
+    </GridLayout>
+</Page>
